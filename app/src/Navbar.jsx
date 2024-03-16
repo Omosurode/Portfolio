@@ -1,6 +1,6 @@
 function NavBar() {
   return (
-    <div className="navbar bg-base-100 px-52">
+    <div className="navbar bg-base-100 lg:px-52">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -42,9 +42,11 @@ function NavBar() {
             </li>
           </ul>
         </div>
-        <a href="/" className="btn btn-ghost text-xl">Jacobo Gallego</a>
+        <a href="/" className="btn btn-ghost text-xl text-neutral-200">
+          Jacobo Gallego
+        </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden lg:flex z-50">
         <ul className="menu menu-lg menu-horizontal px-1">
           <li>
             <a href="/">Item 1</a>
@@ -68,11 +70,12 @@ function NavBar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="/" className="btn">Get in contact</a>
+        <a href="/" className="btn">
+          Get in contact
+        </a>
       </div>
     </div>
   );
-
 }
 
 export default NavBar;
