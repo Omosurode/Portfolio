@@ -24,7 +24,7 @@ function NavBar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="/">Item 1</a>
+              <a href="/#about">About</a>
             </li>
             <li>
               <a href="/">Parent</a>
@@ -54,7 +54,7 @@ function NavBar() {
       <div className="navbar-center hidden lg:flex z-50">
         <ul className="menu menu-lg menu-horizontal px-1">
           <li>
-            <a href="/">Item 1</a>
+            <a href="/#about">About</a>
           </li>
           <li>
             <details>

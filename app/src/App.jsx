@@ -12,7 +12,14 @@ function App() {
       <Navbar />
       <Routes>
         <Route element={<Landing />} path="/" />
-        <Route element={<h1 className="">Projects page</h1>} path="/Projects" />
+        <Route
+          element={
+            <div>
+              <h1 className="pt-20">Projects page</h1>
+            </div>
+          }
+          path="/projects"
+        />
       </Routes>
     </Suspense>
   );
