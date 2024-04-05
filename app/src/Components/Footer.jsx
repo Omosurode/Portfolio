@@ -22,7 +22,7 @@ function Footer() {
             <FaLinkedin size={40} />
           </a>
           <a
-            href="https://www.linkedin.com/in/jacobo-gallego/"
+            href="https://github.com/Omosurode"
             target="_blank"
             rel="noopener noreferrer"
           >
