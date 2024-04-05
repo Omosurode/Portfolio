@@ -67,83 +67,161 @@ function LandingPage() {
           </svg>
         </div>
       </div>
-      <div className=" left-9">
-        <div className="my-10 w-full items-center inline-flex">
-          <h1 className="text-5xl ms-2">ABOUT ME</h1>
-          <hr className="w-1/5 mx-5 mt-1 border-4 secondary rounded border-secondary relative float-left align-middle" />
+      <div className="lg:mx-20">
+        <div>
+          <div className="my-10 w-full items-center inline-flex">
+            <h1 className="text-5xl ms-2">ABOUT ME</h1>
+            <hr className="w-1/5 mx-5 mt-1 border-4 secondary rounded border-secondary relative float-left align-middle" />
+          </div>
+          <div className="flex flex-col items-center lg:items-start text-justify lg:flex-initial ">
+            <p className="lg:max-w-none max-w-md text-xl min-w-80 pb-6">
+              I'm a tech and education enthusiast with a diverse background.
+              After college, I dived into developing educational apps for STEM
+              projects. This led me to a role at a programming school, teaching
+              coding and refining their app. These experiences fuel my passion
+              for technology-driven learning and constant growth.
+            </p>
+            <p className="lg:max-w-none max-w-md text-xl min-w-80 pb-6">
+              I excel in problem-solving and adaptability. From coding
+              challenges to teaching strategies, I thrive on finding creative
+              solutions. This adaptability has been pivotal in my career,
+              guiding me through dynamic environments and rapid changes in
+              technology.
+            </p>
+          </div>
         </div>
-        <div className="flex flex-col items-center lg:items-start text-justify lg:flex-initial ">
-          <p className="lg:max-w-7xl max-w-8 text-lg min-w-80 pb-6">
-            As an enthusiastic professional in the realm of technology and
-            education, I've had the privilege of crafting a diverse career path
-            that reflects my passion for innovation and learning. Following my
-            graduation from college, I ventured into the development of
-            educational applications tailored for STEM projects, where I
-            witnessed firsthand the transformative power of technology in
-            enhancing learning experiences. This initial foray laid the
-            foundation for my subsequent role at a prominent programming school
-            headquartered in California, where I not only imparted programming
-            knowledge but also contributed to the refinement of their
-            educational app. These experiences have equipped me with a deep
-            understanding of the intersection between technology and education,
-            inspiring me to continuously seek new avenues for growth and impact.
-          </p>
-          <p className="lg:max-w-7xl max-w-8 text-lg min-w-80 pb-6">
-            My professional journey has been defined by my unwavering commitment
-            to problem-solving and adaptability. I pride myself on my ability to
-            navigate through complex challenges with versatility and
-            resourcefulness, whether it involves unraveling intricate coding
-            puzzles or devising innovative teaching methodologies. This innate
-            strength has not only propelled my career forward but has also
-            enabled me to thrive in dynamic and ever-evolving environments. I
-            firmly believe that in today's fast-paced tech landscape, the
-            ability to adapt and creatively tackle obstacles is paramount to
-            success.
-          </p>
-          <p className="lg:max-w-7xl max-w-8 text-lg min-w-80 pb-6">
-            Beyond my professional endeavors, I am a firm advocate for the
-            pursuit of a balanced and fulfilling life. In my leisure time, I
-            relish the opportunity to immerse myself in diverse experiences that
-            enrich both my personal and intellectual well-being. Whether I'm out
-            enjoying memorable moments with friends, exploring new locales, or
-            indulging in cultural activities such as art exhibitions and
-            literary pursuits, I am constantly seeking opportunities to broaden
-            my horizons and deepen my understanding of the world around me. This
-            dual approach to life ensures that I not only excel in my
-            professional pursuits but also cultivate a rich and meaningful
-            existence outside the confines of work.
-          </p>
+        <div>
+          <div className="my-10 w-full items-center inline-flex">
+            <h1 className="text-5xl ms-2">Skills</h1>
+            <hr className="w-1/5 mx-5 border-4 secondary rounded border-secondary relative float-left align-middle" />
+          </div>
+          <div className="flex flex-row flex-wrap justify-center">
+            <SkillContainer dataTip="HTML" faIcon={<FaHtml5 />} />
+            <SkillContainer dataTip="CSS" faIcon={<FaCss3Alt />} />
+            <SkillContainer dataTip="Bootstrap" faIcon={<FaBootstrap />} />
+            <SkillContainer dataTip="Tailwind" faIcon={<SiTailwindcss />} />
+            <SkillContainer dataTip="JQuery" faIcon={<SiJquery />} />
+            <SkillContainer
+              dataTip="Javascript"
+              faIcon={<IoLogoJavascript />}
+            />
+            <SkillContainer dataTip="React" faIcon={<FaReact />} />
+            <SkillContainer dataTip="C#" faIcon={<SiCsharp />} />
+            <SkillContainer dataTip=".NET" faIcon={<SiDotnet />} />
+            <SkillContainer dataTip="Unity" faIcon={<FaUnity />} />
+            <SkillContainer
+              dataTip="SQL Server"
+              faIcon={<SiMicrosoftsqlserver />}
+            />
+            <SkillContainer dataTip="Github" faIcon={<FaGithub />} />
+          </div>
+        </div>
+        <div>
+          <div className="my-10 w-full items-center inline-flex">
+            <h1 className="text-5xl ms-2">Experience</h1>
+            <hr className="w-1/5 mx-5 border-4 secondary rounded border-secondary relative float-left align-middle" />
+          </div>
+        </div>
+        <div className="mb-6">
+          <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical max-md:mx-4">
+            <li>
+              <div className="timeline-middle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div className="timeline-start md:text-end mb-10">
+                <time className="font-mono italic">2019</time>
+                <div className="text-lg font-black">
+                  Programming Tutor - Niagara College
+                </div>
+                assessing the tutee's level of comprehension and identifying
+                areas of difficulty. Using a variety of teaching methods and
+                tools, the tutor explains programming concepts in diverse ways
+                to facilitate understanding. This personalized approach empowers
+                students to overcome challenges and achieve proficiency in
+                programming.
+              </div>
+              <hr />
+            </li>
+            <li>
+              <hr />
+              <div className="timeline-middle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div className="timeline-end mb-10">
+                <time className="font-mono italic">2021 - 2022</time>
+                <div className="text-lg font-black">
+                  Unity developer - Toro Labs
+                </div>
+                Creating applications within Unity based on provided design
+                documents. Involving early identification of potential conflicts
+                during the application's design phase, as well as providing
+                feedback to improve user experience and workflow. <br />
+                Performing testing to identify functional issues before passing
+                builds to QA. Furthermore, engaging in an iterative feedback
+                loop ensures timely adjustments to meet quality standards and
+                user expectations.
+              </div>
+              <hr />
+            </li>
+            <li>
+              <hr />
+              <div className="timeline-middle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-5 w-5"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div className="timeline-start md:text-end mb-10">
+                <time className="font-mono italic">2023</time>
+                <div className="text-lg font-black">
+                  Fullstack Developer and fullstack instructor - sabio
+                </div>
+                Responsibilities aimed at both development and teaching.
+                Responsible for developing and maintaining both the front-end
+                and back-end of web applications, ensuring their functionality
+                and user experience meet high standards. This includes writing
+                clean and efficient code using various programming languages and
+                frameworks like React, SQL Server, and .NET. <br />
+                Collaboration with cross-functional team working together to
+                identify and implement new features and functionalities. <br />
+                Additionally, as an instructor share knowledge and experience
+                with others, guiding them in understanding concepts, writing
+                efficient code, and solving problems effectively.
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-      <div>
-        <div className="my-10 w-full items-center inline-flex">
-          <h1 className="text-5xl ms-2">Skills</h1>
-          <hr className="w-1/5 mx-5 border-4 secondary rounded border-secondary relative float-left align-middle" />
-        </div>
-        <div className="flex flex-row flex-wrap justify-center">
-          <SkillContainer dataTip="HTML" faIcon={<FaHtml5 />} />
-          <SkillContainer dataTip="CSS" faIcon={<FaCss3Alt />} />
-          <SkillContainer dataTip="Bootstrap" faIcon={<FaBootstrap />} />
-          <SkillContainer dataTip="Tailwind" faIcon={<SiTailwindcss />} />
-          <SkillContainer dataTip="JQuery" faIcon={<SiJquery />} />
-          <SkillContainer dataTip="Javascript" faIcon={<IoLogoJavascript />} />
-          <SkillContainer dataTip="React" faIcon={<FaReact />} />
-          <SkillContainer dataTip="C#" faIcon={<SiCsharp />} />
-          <SkillContainer dataTip=".NET" faIcon={<SiDotnet />} />
-          <SkillContainer
-            dataTip="SQL Server"
-            faIcon={<SiMicrosoftsqlserver />}
-          />
-          <SkillContainer dataTip="Github" faIcon={<FaGithub />} />
-          <SkillContainer dataTip="Unity" faIcon={<FaUnity />} />
-        </div>
-      </div>
-      {/* <div>
-        <div className="my-10 w-full items-center inline-flex">
-          <h1 className="text-5xl ms-2">Experience</h1>
-          <hr className="w-1/5 mx-5 border-4 secondary rounded border-secondary relative float-left align-middle" />
-        </div>
-      </div> */}
     </React.Fragment>
   );
 }
