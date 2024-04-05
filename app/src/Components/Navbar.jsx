@@ -41,7 +41,11 @@ function NavBar() {
               <a href="/">Item 3</a>
             </li>
             <li>
-              <a href="/" className="btn">
+              <a
+                href="mailto:jacobo.gallego2@hotmail.com"
+                rel="noopener noreferrer"
+                className="btn"
+              >
                 Get in contact
               </a>
             </li>
@@ -54,7 +58,7 @@ function NavBar() {
       <div className="navbar-center hidden lg:flex z-50">
         <ul className="menu menu-lg menu-horizontal px-1">
           <li>
-            <a href="/#about">About</a>
+            <a href="/">About</a>
           </li>
           <li>
             <details>
@@ -75,7 +79,11 @@ function NavBar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="/" className="btn hidden lg:inline-flex">
+        <a
+          href="mailto:jacobo.gallego2@hotmail.com"
+          rel="noopener noreferrer"
+          className="btn hidden lg:inline-flex"
+        >
           Get in contact
         </a>
         <label className="swap swap-rotate ps-8">

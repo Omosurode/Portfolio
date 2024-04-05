@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import "./index";
 import Navbar from "./Components/Navbar";
 import Landing from "./Components/LandingPage";
+import Footer from "./Components/Footer";
 import { Routes, Route } from "react-router-dom";
 
 const loading = () => <div className="">loading....</div>;
@@ -21,6 +22,7 @@ function App() {
           path="/projects"
         />
       </Routes>
+      <Footer />
     </Suspense>
   );
 }
