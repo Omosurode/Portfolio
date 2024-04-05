@@ -74,14 +74,14 @@ function LandingPage() {
             <hr className="w-1/5 mx-5 mt-1 border-4 secondary rounded border-secondary relative float-left align-middle" />
           </div>
           <div className="flex flex-col items-center lg:items-start text-justify lg:flex-initial ">
-            <p className="lg:max-w-none max-w-md text-xl min-w-80 pb-6">
+            <p className="lg:max-w-none max-w-md text-xl min-w-80 pb-6 max-sm:mx-4">
               I'm a tech and education enthusiast with a diverse background.
               After college, I dived into developing educational apps for STEM
               projects. This led me to a role at a programming school, teaching
               coding and refining their app. These experiences fuel my passion
               for technology-driven learning and constant growth.
             </p>
-            <p className="lg:max-w-none max-w-md text-xl min-w-80 pb-6">
+            <p className="lg:max-w-none max-w-md text-xl min-w-80 pb-6 max-sm:mx-4">
               I excel in problem-solving and adaptability. From coding
               challenges to teaching strategies, I thrive on finding creative
               solutions. This adaptability has been pivotal in my career,
@@ -123,7 +123,7 @@ function LandingPage() {
           </div>
         </div>
         <div className="mb-6">
-          <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical max-md:mx-4">
+          <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical max-md:mx-4 max-md:text-justify">
             <li>
               <div className="timeline-middle">
                 <svg
