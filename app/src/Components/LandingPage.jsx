@@ -140,16 +140,21 @@ function LandingPage() {
                 </svg>
               </div>
               <div className="timeline-start md:text-end mb-10">
-                <time className="font-mono italic">2019</time>
+                <time className="font-mono italic">2023</time>
                 <div className="text-lg font-black">
-                  Programming Tutor - Niagara College
+                  Fullstack Developer and fullstack instructor - sabio
                 </div>
-                assessing the tutee's level of comprehension and identifying
-                areas of difficulty. Using a variety of teaching methods and
-                tools, the tutor explains programming concepts in diverse ways
-                to facilitate understanding. This personalized approach empowers
-                students to overcome challenges and achieve proficiency in
-                programming.
+                Responsibilities aimed at both development and teaching.
+                Responsible for developing and maintaining both the front-end
+                and back-end of web applications, ensuring their functionality
+                and user experience meet high standards. This includes writing
+                clean and efficient code using various programming languages and
+                frameworks like React, SQL Server, and .NET. <br />
+                Collaboration with cross-functional team working together to
+                identify and implement new features and functionalities. <br />
+                Additionally, as an instructor share knowledge and experience
+                with others, guiding them in understanding concepts, writing
+                efficient code, and solving problems effectively.
               </div>
               <hr />
             </li>
@@ -202,21 +207,16 @@ function LandingPage() {
                 </svg>
               </div>
               <div className="timeline-start md:text-end mb-10">
-                <time className="font-mono italic">2023</time>
+                <time className="font-mono italic">2019</time>
                 <div className="text-lg font-black">
-                  Fullstack Developer and fullstack instructor - sabio
+                  Programming Tutor - Niagara College
                 </div>
-                Responsibilities aimed at both development and teaching.
-                Responsible for developing and maintaining both the front-end
-                and back-end of web applications, ensuring their functionality
-                and user experience meet high standards. This includes writing
-                clean and efficient code using various programming languages and
-                frameworks like React, SQL Server, and .NET. <br />
-                Collaboration with cross-functional team working together to
-                identify and implement new features and functionalities. <br />
-                Additionally, as an instructor share knowledge and experience
-                with others, guiding them in understanding concepts, writing
-                efficient code, and solving problems effectively.
+                assessing the tutee's level of comprehension and identifying
+                areas of difficulty. Using a variety of teaching methods and
+                tools, the tutor explains programming concepts in diverse ways
+                to facilitate understanding. This personalized approach empowers
+                students to overcome challenges and achieve proficiency in
+                programming.
               </div>
             </li>
           </ul>
