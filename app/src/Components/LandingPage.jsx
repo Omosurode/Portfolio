@@ -70,7 +70,7 @@ function LandingPage() {
       <div className="lg:mx-20">
         <div>
           <div className="my-10 w-full items-center inline-flex">
-            <h1 className="text-5xl ms-2">ABOUT ME</h1>
+            <h1 className="text-5xl ms-2">About me</h1>
             <hr className="w-1/5 mx-5 mt-1 border-4 secondary rounded border-secondary relative float-left align-middle" />
           </div>
           <div className="flex flex-col items-center lg:items-start text-justify lg:flex-initial ">

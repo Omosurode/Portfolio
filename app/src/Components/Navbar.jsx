@@ -26,7 +26,7 @@ function NavBar() {
             <li>
               <a href="/#about">About</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/">Parent</a>
               <ul className="p-2">
                 <li>
@@ -36,9 +36,9 @@ function NavBar() {
                   <a href="/">Submenu 2</a>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li>
-              <a href="/">Item 3</a>
+              <a href="/projects">Projects</a>
             </li>
             <li>
               <a
@@ -60,7 +60,7 @@ function NavBar() {
           <li>
             <a href="/">About</a>
           </li>
-          <li>
+          {/* <li>
             <details>
               <summary>Parent</summary>
               <ul className="p-2">
@@ -72,9 +72,9 @@ function NavBar() {
                 </li>
               </ul>
             </details>
-          </li>
+          </li> */}
           <li>
-            <a href="/">Item 3</a>
+            <a href="/projects">Projects</a>
           </li>
         </ul>
       </div>
