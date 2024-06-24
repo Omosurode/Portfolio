@@ -55,6 +55,6 @@
   filter: grayscale(100%);
 }
 
-.projectsPage .card:not(:nth-child(5)) {
+.projectsPage .card:not(:last-child) {
   margin-right: 1em;
 }

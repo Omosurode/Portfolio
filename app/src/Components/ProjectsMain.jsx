@@ -11,7 +11,7 @@ function ProjectsMain() {
   return (
     <React.Fragment>
       <div className="text-center items-center pt-8">
-        <div class="container projectsPage">
+        <div class="container projectsPage *:cursor-pointer">
           <div
             class="card"
             onClick={() => navigate("/projects/humanity-last-grasp")}

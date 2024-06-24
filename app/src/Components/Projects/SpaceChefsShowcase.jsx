@@ -61,7 +61,7 @@ function SpaceChefsShowcase() {
           height="167"
           width="60%"
           frameborder="0"
-          src="https://itch.io/embed/1004939"
+          src="https://itch.io/embed/1004939?dark=true"
           title="Space chefs on itch"
         >
           <a href="https://7gnomes.itch.io/space-chefs-from-space">
