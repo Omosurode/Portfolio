@@ -29,7 +29,7 @@ function HumanityLastGraspShowcase() {
           height="167"
           width="60%"
           frameborder="0"
-          src="https://itch.io/embed/1025778"
+          src="https://itch.io/embed/1025778?dark=true"
           title="Tonge tied on itch"
         >
           <a href="https://xazzy.itch.io/tongue-tied">Tongue Tied by Xazzy</a>
