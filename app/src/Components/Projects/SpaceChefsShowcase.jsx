@@ -64,10 +64,7 @@ function SpaceChefsShowcase() {
           src="https://itch.io/embed/1004939?dark=true"
           title="Space chefs on itch"
         >
-          <a
-            href="https://7gnomes.itch.io/space-chefs-from-space"
-            className="Dark"
-          >
+          <a href="https://7gnomes.itch.io/space-chefs-from-space">
             Space Chefs from Space by 7Gnomes, Xazzy
           </a>
         </iframe>
